@@ -1,0 +1,55 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  border:5px solid #b8decc;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+header{
+  background-color: #e5f1f5;
+}
+.hero img{
+  width: 100%;
+}
+div.left, div.middle, div.right{
+  border: 3px dotted #8dd6e0;
+  width: 30%;
+}
+
+aside img{
+  width: 100%; 
+}
+
+aside{
+ display: flex;
+ justify-content: space-between;
+}
+
+nav{
+background-color: #b5cdc8;
+
+}
+
+ul{
+text-align: center;
+
+}
+li{
+display: inline-block;
+width: 150px;
+border: 2px solid rgb(255, 255, 255);
+line-height: 3em;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-variant: small-caps;
+
+}
+a{
+  color:rgb(49, 56, 53);
+  text-decoration: none;
+  border: 1px solid rgb(43, 62, 43);
+  display: block;
+}
